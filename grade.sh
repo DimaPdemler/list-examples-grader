@@ -60,6 +60,7 @@ cd  student-submission/
 
 java -cp .:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples | tee -a output.txt
 
+
 if [[ $? -eq 0 ]]
 then
     FSCORE=$((FSCORE + 80))
